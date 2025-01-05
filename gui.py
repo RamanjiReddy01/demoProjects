@@ -83,7 +83,7 @@ b0=Button(frame,text='0',font=('arial',20,'bold'),height=2,width=5,command=lambd
 b0.grid(row=3,column=1)
 dot=Button(frame,text='.',font=('arial',20,'bold'),height=2,width=5,command=dot1)
 dot.grid(row=3,column=2)
-clear=Button(frame,text='cls',font=('arial',20,'bold'),height=2,width=5,command=clear1)
-clear.grid(row=4,column=1)
+clear=Button(frame,text='clear',font=('arial',20,'bold'),height=1,width=20,command=clear1)
+clear.grid(row=4,column=0,columnspan=4)
 
 window.mainloop()
